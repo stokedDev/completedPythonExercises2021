@@ -1,0 +1,11 @@
+my_string = "My\nString"
+print(len(my_string))
+print(my_string.lower())
+print(my_string.upper())
+print(my_string.upper().isupper())
+print(my_string.isupper())
+print(my_string[3])
+print(my_string.index("S"))
+print(my_string.index("tri"))
+print(my_string.replace("My", "Maurice's"))
+print(my_string.replace("\n", " "))
